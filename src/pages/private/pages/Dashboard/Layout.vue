@@ -1,5 +1,6 @@
 <template>
-  <div>This is private layouts</div>
+  <div>This is dashboard layout</div>
+  <router-view></router-view>
 </template>
 
 <script>

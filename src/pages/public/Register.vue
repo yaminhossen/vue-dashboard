@@ -1,5 +1,5 @@
 <template>
-  <div>This is private layouts</div>
+  <div>This is resister page from resister page</div>
 </template>
 
 <script>

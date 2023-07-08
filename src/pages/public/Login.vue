@@ -1,5 +1,5 @@
 <template>
-  <div>This is private layouts</div>
+  <div>This is login page from login page</div>
 </template>
 
 <script>

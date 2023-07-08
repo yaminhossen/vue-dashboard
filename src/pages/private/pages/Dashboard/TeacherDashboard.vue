@@ -1,5 +1,5 @@
 <template>
-  <div>This is private layouts</div>
+  <div>This is teacher dashboard from dashboard</div>
 </template>
 
 <script>

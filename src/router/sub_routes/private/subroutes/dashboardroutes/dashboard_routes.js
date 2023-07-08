@@ -1,0 +1,1 @@
+import DashboardLayout from "pages/private/pages/Dashboard/la"
