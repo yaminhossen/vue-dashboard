@@ -1,6 +1,6 @@
 import MainLayoutVue from "src/layouts/MainLayout.vue";
 import PrivateLayouts from "src/pages/private/layouts/PrivateLayouts.vue";
-import dashboard_routes from "./subroutes/dashboard_routes"
+import dashboard_routes from "./subroutes/dashboardroutes/dashboard_routes"
 
 export default{
     path:'/',
@@ -10,7 +10,7 @@ export default{
             path:'admin',
             component: PrivateLayouts,
             children:[
-                dashboard_routes
+                dashboard_routes,
             ]
         }
     ]
