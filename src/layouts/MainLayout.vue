@@ -12,14 +12,14 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
+    <!-- <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <ul>
         <li>dashboard</li>
         <li>userlist</li>
       </ul>
-    </q-drawer>
+    </q-drawer> -->
 
-    <q-page-container>
+     <q-page-container>
       <ul>
         <li>
             <router-link :to="{ name: `Home` }">home</router-link>
