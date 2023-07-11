@@ -14,7 +14,7 @@ export default {
             component: AdminDashboard,
         },
         {
-            path: `adminDashboard`,
+            path: `teacherDashboard`,
             name: `Teacher${prefix}`,
             component: TeacherDashboard,
         },
