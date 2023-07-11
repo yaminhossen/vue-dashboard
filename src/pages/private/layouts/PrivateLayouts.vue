@@ -39,30 +39,30 @@
               <div>Dashboard</div>
             </a>
           </li>
-          <li @click.prevent="toggleLi($event)" class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
+          <li class="menu-item">
+            <a  @click.prevent="toggleLi($event)"  href="javascript:void(0);" class="menu-link menu-toggle">
               <i class="menu-icon tf-icons ti ti-smart-home"></i>
               <div data-i18n="Dashboards">Users</div>
               <div class="badge bg-primary rounded-pill ms-auto"></div>
             </a>
-            <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="index.html" class="menu-link">
+            <ul  class="menu-sub">
+              <!-- <li class="menu-item">
+                <a class="menu-link">
                   <div data-i18n="Analytics">Analytics</div>
                 </a>
-              </li>
-              <!-- <li>
+              </li> -->
+              <li class="menu-item">
                 <router-link class="menu-link" :to="{ name: `userAll` }">All</router-link>
               </li>
-              <li>
-                <router-link :to="{ name: `userCreate` }">Create</router-link>
+              <li class="menu-item">
+                <router-link class="menu-link" :to="{ name: `userCreate` }">Create</router-link>
               </li>
-              <li>
-                <router-link :to="{ name: `userDetails` }">Details</router-link>
+              <li class="menu-item">
+                <router-link class="menu-link" :to="{ name: `userDetails` }">Details</router-link>
               </li>
-              <li>
-                <router-link :to="{ name: `userEdit` }">Edit</router-link>
-              </li> -->
+              <li class="menu-item">
+                <router-link class="menu-link" :to="{ name: `userEdit` }">Edit</router-link>
+              </li>
             </ul>
           </li>
           
@@ -575,7 +575,8 @@ export default {
 
     return {
       toggleLi: function (e) {
-        e.currentTarget.classList.toggle('open');
+        e.currentTarget.parentNode.classList.toggle('open');
+        console.log('done',e.currentTarget.parentNode.classList);
       },
     }
   }

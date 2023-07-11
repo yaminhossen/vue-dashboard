@@ -1,7 +1,7 @@
 import Layout from "src/pages/private/pages/user_management/Layout.vue"
 import All from "src/pages/private/pages/user_management/All.vue"
 import Create from "src/pages/private/pages/user_management/Create.vue"
-import Details from "src/pages/private/pages/user_management/Details.vue"
+import Details from "src/pages/private/pages/user_management/Detailss.vue"
 import Edit from "src/pages/private/pages/user_management/Edit.vue"
 
 let prefix = `user`;
@@ -20,12 +20,12 @@ export default {
             component: Create,
         },
         { 
-            path: `details/:id`, 
+            path: `details/1`, 
             name: `${prefix}Details`,
             component: Details,
         },
         { 
-            path: `edit/:id`, 
+            path: `edit/1`, 
             name: `${prefix}Edit`,
             component: Edit,
         },
