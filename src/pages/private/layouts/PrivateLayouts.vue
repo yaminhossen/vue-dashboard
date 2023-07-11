@@ -576,7 +576,6 @@ export default {
     return {
       toggleLi: function (e) {
         e.currentTarget.parentNode.classList.toggle('open');
-        console.log('done',e.currentTarget.parentNode.classList);
       },
     }
   }
