@@ -12,6 +12,7 @@ export default{
             component: PrivateLayouts,
             children:[
                 dashboard_routes,
+                user_managementRoutes,
                 
             ]
         }

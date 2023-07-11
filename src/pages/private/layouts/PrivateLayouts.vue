@@ -51,25 +51,18 @@
                   <div data-i18n="Analytics">Analytics</div>
                 </a>
               </li>
-              <li>
-                <router-link class="menu-link" :to="{ name: `Home` }">home</router-link>
+              <!-- <li>
+                <router-link class="menu-link" :to="{ name: `userAll` }">All</router-link>
               </li>
               <li>
-                <router-link :to="{ name: `Login` }">login</router-link>
+                <router-link :to="{ name: `userCreate` }">Create</router-link>
               </li>
               <li>
-                <router-link :to="{ name: `Register` }">register</router-link>
+                <router-link :to="{ name: `userDetails` }">Details</router-link>
               </li>
               <li>
-                <router-link :to="{ name: `Dashboard` }">Dashboard</router-link>
-              </li>
-              <li>
-                <router-link :to="{ name: `AdminDashboard` }">Admindashboard</router-link>
-              </li>
-              <li>
-                <router-link :to="{ name: `TeacherDashboard` }">Teacherdashboard</router-link>
-              </li>
-
+                <router-link :to="{ name: `userEdit` }">Edit</router-link>
+              </li> -->
             </ul>
           </li>
           
