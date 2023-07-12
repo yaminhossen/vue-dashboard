@@ -1,4 +1,22 @@
-.card{
+.card {
+    padding: 2px;
+    ::-webkit-scrollbar {
+        height: 5px; /* Width of the scrollbar */
+        // margin: 5px 0px;
+        background-color: rgb(224, 219, 219);
+        border-radius: 5px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888; /* Color of the scrollbar handle */
+        border-radius: 5px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Color of the scrollbar handle on hover */
+    }
     .user_header {
         display: flex;
         justify-content: space-between;
@@ -18,13 +36,11 @@
             }
         }
     }
-    .table-responsive{
-        table{
-
-            tbody{
-               
-                tr{
-                    td:last-child{
+    .table-responsive {
+        table {
+            tbody {
+                tr {
+                    td:last-child {
                         width: 50px;
                         text-align: right;
                         padding-right: 25px;
@@ -33,7 +49,6 @@
             }
         }
     }
- 
 }
 
 .pagination {
@@ -42,17 +57,17 @@
     display: flex;
     justify-content: space-between;
     margin: 10px;
-     li {
+    li {
         margin-right: 5px;
-        a{
+        a {
             border: none;
             background-color: rgb(228, 228, 224);
         }
     }
 }
-.page_limit{
+.page_limit {
     margin: 14px;
-    select{
+    select {
         border: 1px solid gray;
         border-radius: 5px;
         background-color: rgb(57, 56, 56);

@@ -130,6 +130,116 @@
                             </div>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>01</td>
+                        <td>
+                            Ethian Bro
+                        </td>
+                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
+                                    data-bs-toggle="dropdown"><i class="ti ti-dots-vertical"></i></button>
+                                <div class="dropdown-menu ">
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-pencil me-1"></i>
+                                        Edit</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-trash me-1"></i>
+                                        Delete</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>01</td>
+                        <td>
+                            Ethian Bro
+                        </td>
+                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
+                                    data-bs-toggle="dropdown"><i class="ti ti-dots-vertical"></i></button>
+                                <div class="dropdown-menu ">
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-pencil me-1"></i>
+                                        Edit</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-trash me-1"></i>
+                                        Delete</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>01</td>
+                        <td>
+                            Ethian Bro
+                        </td>
+                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
+                                    data-bs-toggle="dropdown"><i class="ti ti-dots-vertical"></i></button>
+                                <div class="dropdown-menu ">
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-pencil me-1"></i>
+                                        Edit</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-trash me-1"></i>
+                                        Delete</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>01</td>
+                        <td>
+                            Ethian Bro
+                        </td>
+                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
+                                    data-bs-toggle="dropdown"><i class="ti ti-dots-vertical"></i></button>
+                                <div class="dropdown-menu ">
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-pencil me-1"></i>
+                                        Edit</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-trash me-1"></i>
+                                        Delete</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>01</td>
+                        <td>
+                            Ethian Bro
+                        </td>
+                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
+                                    data-bs-toggle="dropdown"><i class="ti ti-dots-vertical"></i></button>
+                                <div class="dropdown-menu ">
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-pencil me-1"></i>
+                                        Edit</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><i class="ti ti-trash me-1"></i>
+                                        Delete</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
                 </tbody>
 
             </table>

@@ -1,7 +1,7 @@
 <template>
-    <h4 class="py-3 mb-4">
-  <span class="text-muted fw-light"></span> User Management
-</h4>
+  <h6 class="py-1 mb-1">
+    User Management
+  </h6>
   <router-view></router-view>
 </template>
 
@@ -11,6 +11,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
