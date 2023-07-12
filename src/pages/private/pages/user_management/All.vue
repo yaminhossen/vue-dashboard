@@ -186,8 +186,23 @@
                                     <li class="paginate_button page-item " id="DataTables_Table_1_next"><a
                                             aria-controls="DataTables_Table_1" aria-role="link" data-dt-idx="next"
                                             tabindex="0" class="page-link">Next</a></li>
+                                            <!-- <label>Show <select name="DataTables_Table_1_length" aria-controls="DataTables_Table_1" class="form-select"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label> -->
                                 </ul>
+                                
                             </div>
+                            
+                        </div>
+                        <!-- <div class="col-sm-5 col-md-6"><div class="dataTables_length" id="DataTables_Table_1_length"><label>Show <select name="DataTables_Table_1_length" aria-controls="DataTables_Table_1" class="form-select"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div> -->
+                        <div class="col-sm-5 col-md-6 page_limit">
+                            <label>Limit: 
+                                <select name="" id="">
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                    <option value="40">40</option>
+                                </select>
+                            </label>
+                            <label for="">Total: 205</label>
                         </div>
                     </div>
                 </div>
