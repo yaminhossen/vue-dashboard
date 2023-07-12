@@ -1,22 +1,41 @@
-.user_header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 20px;
-    input {
-        border-radius: 5px;
-        border: 1px solid gray;
-        padding: 3px 6px;
-    }
-    div {
-        span {
-            border: 1px solid gray;
+.card{
+    .user_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 20px;
+        input {
             border-radius: 5px;
+            border: 1px solid gray;
             padding: 3px 6px;
-            margin-left: 10px;
+        }
+        div {
+            span {
+                border: 1px solid gray;
+                border-radius: 5px;
+                padding: 3px 6px;
+                margin-left: 10px;
+            }
         }
     }
+    .table-responsive{
+        table{
+
+            tbody{
+               
+                tr{
+                    td:last-child{
+                        width: 50px;
+                        text-align: right;
+                        padding-right: 25px;
+                    }
+                }
+            }
+        }
+    }
+ 
 }
+
 .pagination {
     // background-color: rgb(232, 231, 224);
     border-radius: 5px;

@@ -133,30 +133,7 @@
                 </tbody>
 
             </table>
-            <!-- <div class="user_pagination">
-                <div>
-                    <ul class="pagination">
-                        <li class="pagination_page">
-                            <span> > </span> Previous
-                        </li>
-                        <li class="pagination_page">
-                            1
-                        </li>
-                        <li class="pagination_page active">
-                            <a class="active_page" href="">2</a>
-                        </li>
-                        <li class="pagination_page">
-                            <a class="active_page" href="">2</a>
-                        </li>
-                        <li class="pagination_page">
-                            <a class="active_page" href="">2</a>
-                        </li>
-                        <li class="pagination_page">
-                            Next <span>></span>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
+           
             <div class="card-datatable text-nowrap">
                 <div id="DataTables_Table_1_wrapper" class="dataTables_wrapper dt-bootstrap5">
                     <div class="row">
