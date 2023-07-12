@@ -1,19 +1,33 @@
-.user_header{
+.user_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px 20px;
-    input{
+    input {
         border-radius: 5px;
         border: 1px solid gray;
         padding: 3px 6px;
     }
-    div{
-        span{
+    div {
+        span {
             border: 1px solid gray;
             border-radius: 5px;
             padding: 3px 6px;
             margin-left: 10px;
+        }
+    }
+}
+.pagination {
+    // background-color: rgb(232, 231, 224);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+     li {
+        margin-right: 5px;
+        a{
+            border: none;
+            background-color: rgb(228, 228, 224);
         }
     }
 }

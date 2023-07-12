@@ -133,23 +133,63 @@
                 </tbody>
 
             </table>
-            <div>
+            <!-- <div class="user_pagination">
                 <div>
-                    <nav aria-label="...">
-                        <ul class="pagination">
-                            <li class="page-item disabled">
-                                <a class="page-link">Previous</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active" aria-current="page">
-                                <a class="page-link" href="#">2</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <ul class="pagination">
+                        <li class="pagination_page">
+                            <span> > </span> Previous
+                        </li>
+                        <li class="pagination_page">
+                            1
+                        </li>
+                        <li class="pagination_page active">
+                            <a class="active_page" href="">2</a>
+                        </li>
+                        <li class="pagination_page">
+                            <a class="active_page" href="">2</a>
+                        </li>
+                        <li class="pagination_page">
+                            <a class="active_page" href="">2</a>
+                        </li>
+                        <li class="pagination_page">
+                            Next <span>></span>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+            <div class="card-datatable text-nowrap">
+                <div id="DataTables_Table_1_wrapper" class="dataTables_wrapper dt-bootstrap5">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5">
+                            <div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_1_paginate">
+                                <ul class="pagination">
+                                    <li class="paginate_button page-item  disabled"
+                                        id="DataTables_Table_1_previous"><a aria-controls="DataTables_Table_1"
+                                            aria-disabled="true" aria-role="link" data-dt-idx="previous" tabindex="0"
+                                            class="page-link">Previous</a></li>
+                                    <li class="paginate_button page-item active"><a aria-controls="DataTables_Table_1"
+                                            aria-role="link" aria-current="page" data-dt-idx="0" tabindex="0"
+                                            class="page-link">1</a></li>
+                                    <li class="paginate_button page-item "><a aria-controls="DataTables_Table_1"
+                                            aria-role="link" data-dt-idx="1" tabindex="0" class="page-link">2</a></li>
+                                    <li class="paginate_button page-item "><a aria-controls="DataTables_Table_1"
+                                            aria-role="link" data-dt-idx="2" tabindex="0" class="page-link">3</a></li>
+                                    <li class="paginate_button page-item "><a aria-controls="DataTables_Table_1"
+                                            aria-role="link" data-dt-idx="3" tabindex="0" class="page-link">4</a></li>
+                                    <li class="paginate_button page-item "><a aria-controls="DataTables_Table_1"
+                                            aria-role="link" data-dt-idx="4" tabindex="0" class="page-link">5</a></li>
+                                    <li class="paginate_button page-item disabled" id="DataTables_Table_1_ellipsis"><a
+                                            aria-controls="DataTables_Table_1" aria-disabled="true" aria-role="link"
+                                            data-dt-idx="ellipsis" tabindex="0" class="page-link">…</a></li>
+                                    <li class="paginate_button page-item "><a aria-controls="DataTables_Table_1"
+                                            aria-role="link" data-dt-idx="9" tabindex="0" class="page-link">10</a></li>
+                                    <li class="paginate_button page-item " id="DataTables_Table_1_next"><a
+                                            aria-controls="DataTables_Table_1" aria-role="link" data-dt-idx="next"
+                                            tabindex="0" class="page-link">Next</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
