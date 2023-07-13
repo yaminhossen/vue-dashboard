@@ -38,6 +38,22 @@
             padding: 10px;
         }
         .create_border{
-            border-top: 1px solid rgb(174, 172, 172);
+            border-top: 1px solid rgb(215, 212, 212);
+        }
+        .create_submit{
+            display: flex; 
+            justify-content: center;
+            div{
+                padding: 4px 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: rgba(36, 14, 229, 0.598);
+                color: rgb(248, 242, 242);
+                margin: 20px 0;
+                i{
+                    margin-right: 5px;
+                }
+            }
+            
         }
     }
