@@ -3,5 +3,29 @@
         aside{
             box-shadow: var(--shadow_color);
         }
+        .sun{
+            i{
+                font-size: 17px;
+            }
+        }
+        .nav_firstName{
+            font-weight: bold;
+        }
+        .nav_name{
+            margin:0px 10px;
+            .nav_userName{
+                font-size: 12px;
+                font-weight: bold;
+                display: flex;
+                justify-content: end;
+            }
+        }
+        .hambarger_menu{
+            font-size: 18px;
+        }
+        .dashboard_title{
+            // text-decoration: none;
+            margin-top: 20px;
+        }
     }
 }

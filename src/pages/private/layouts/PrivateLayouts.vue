@@ -5,7 +5,7 @@
 
       <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
         <div class="app-brand demo">
-          <a href="index.html" class="app-brand-link">
+          <a  class="app-brand-link dashboard_title">
             <span class="app-brand-logo demo">
               <svg width="32" height="22" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -20,13 +20,13 @@
                   fill="#7367F0" />
               </svg>
             </span>
-            <span class="app-brand-text demo menu-text fw-bold">Vuexy</span>
+            <span class="app-brand-text demo  fw-bold">Dashboard</span>
           </a>
 
-          <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
+          <!-- <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
             <i class="ti menu-toggle-icon d-none d-xl-block ti-sm align-middle"></i>
             <i class="ti ti-x d-block d-xl-none ti-sm align-middle"></i>
-          </a>
+          </a> -->
         </div>
 
         <div class="menu-inner-shadow"></div>
@@ -35,17 +35,17 @@
           <!-- Dashboards -->
           <li class="menu-item ">
             <a class="menu-link">
-              <i class="menu-icon tf-icons ti ti-calendar"></i>
+              <i class="fa-solid fa-house "></i>
               <div>Dashboard</div>
             </a>
           </li>
           <li class="menu-item">
-            <a  @click.prevent="toggleLi($event)"  href="javascript:void(0);" class="menu-link menu-toggle">
-              <i class="menu-icon tf-icons ti ti-smart-home"></i>
+            <a @click.prevent="toggleLi($event)" href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="fa-solid fa-users"></i>
               <div data-i18n="Dashboards">Users</div>
               <div class="badge bg-primary rounded-pill ms-auto"></div>
             </a>
-            <ul  class="menu-sub">
+            <ul class="menu-sub">
               <!-- <li class="menu-item">
                 <a class="menu-link">
                   <div data-i18n="Analytics">Analytics</div>
@@ -65,7 +65,7 @@
               </li>
             </ul>
           </li>
-          
+
         </ul>
 
       </aside>
@@ -76,19 +76,20 @@
         <nav
           class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
           id="layout-navbar">
-          <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+          <!-- <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
             <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
               <i class="ti ti-menu-2 ti-sm"></i>
             </a>
-          </div>
+          </div> -->
 
           <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
             <!-- Search -->
             <div class="navbar-nav align-items-center">
               <div class="nav-item navbar-search-wrapper mb-0">
-                <a class="nav-item nav-link search-toggler d-flex align-items-center px-0" href="javascript:void(0);">
-                  <i class="ti ti-search ti-md me-2"></i>
-                  <span class="d-none d-md-inline-block text-muted">Search (Ctrl+/)</span>
+                <a class="nav-itemn hambarger_menu nav-link search-toggler d-flex align-items-center px-0" href="javascript:void(0);">
+                  <!-- <i class="ti ti-menu-2 ti-sm"></i> -->
+                  <!-- <span class="d-none d-md-inline-block text-muted">Search (Ctrl+/)</span> -->
+                  <i class="fa-solid fa-bars"></i>
                 </a>
               </div>
             </div>
@@ -96,7 +97,7 @@
 
             <ul class="navbar-nav flex-row align-items-center ms-auto">
               <!-- Language -->
-              <li class="nav-item dropdown-language dropdown me-2 me-xl-0">
+              <!-- <li class="nav-item dropdown-language dropdown me-2 me-xl-0">
                 <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                   <i class="ti ti-language rounded-circle ti-md"></i>
                 </a>
@@ -122,13 +123,13 @@
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> -->
               <!--/ Language -->
 
               <!-- Style Switcher -->
               <li class="nav-item dropdown-style-switcher dropdown me-2 me-xl-0">
-                <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
-                  <i class="ti ti-md"></i>
+                <a class="nav-link sun dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                  <i class="fa-solid fa-sun"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end dropdown-styles">
                   <li>
@@ -151,7 +152,7 @@
               <!-- / Style Switcher-->
 
               <!-- Quick links  -->
-              <li class="nav-item dropdown-shortcuts navbar-dropdown dropdown me-2 me-xl-0">
+              <!-- <li class="nav-item dropdown-shortcuts navbar-dropdown dropdown me-2 me-xl-0">
                 <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown"
                   data-bs-auto-close="outside" aria-expanded="false">
                   <i class="ti ti-layout-grid-add ti-md"></i>
@@ -231,7 +232,7 @@
                     </div>
                   </div>
                 </div>
-              </li>
+              </li> -->
               <!-- Quick links -->
 
               <!-- Notification -->
@@ -471,7 +472,13 @@
                 </ul>
               </li>
               <!--/ Notification -->
-
+              <!-- user title -->
+              <li>
+                <div class="nav_name">
+                  <div class="nav_firstName">super admin</div>
+                  <div class="nav_userName">super admin</div>
+                </div>
+              </li>
               <!-- User -->
               <li class="nav-item navbar-dropdown dropdown-user dropdown">
                 <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
