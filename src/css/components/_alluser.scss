@@ -44,13 +44,108 @@
                         width: 50px;
                         text-align: right;
                         padding-right: 25px;
+                        // border: 2px solid red;
+                        // cursor: pointer;
+                        .action_div{
+                            position: relative;
+                            .action_btn{
+                                // background-color: red;
+                                // cursor: cell;
+                            }
+                            .action_dropdown{
+                                display: none;
+                                position: absolute;
+                                top: 0px;
+                                left: -80px;
+                                // background-color: rgb(217, 214, 214);
+                                padding: 6px;
+                                border-radius: 5px;
+                            }
+                            .action_dropdown div{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: start;
+                                align-items: start;
+                                
+                                div{
+                                    width: 100%;
+                                    border-radius: 5px;
+                                    
+                                    padding: 3px 5px;
+                                    cursor: pointer;
+                                    margin-bottom: 5px;
+                                }
+                                div:last-child{
+                                    margin-bottom:0px;
+                                }
+                                div:hover{
+                                    background-color: rgb(223, 221, 221);
+                                }
+                            }
+                            
+                            &:hover .action_dropdown{
+                                // z-index: 10;
+                                display: block;
+                            }
+                        }
                     }
                 }
+                tr:last-child {
+                    td:last-child {
+                        width: 50px;
+                        text-align: right;
+                        padding-right: 25px;
+                        // border: 2px solid red;
+                        // cursor: pointer;
+                        .action_div{
+                            position: relative;
+                            .action_btn{
+                                // background-color: red;
+                                // cursor: cell;
+                            }
+                            .action_dropdown{
+                                display: none;
+                                position: absolute;
+                                top: -30px;
+                                left: -80px;
+                                // background-color: rgb(217, 214, 214);
+                                padding: 6px;
+                                border-radius: 5px;
+                            }
+                            .action_dropdown div{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: start;
+                                align-items: start;
+                                
+                                div{
+                                    width: 100%;
+                                    border-radius: 5px;
+                                    
+                                    padding: 3px 5px;
+                                    cursor: pointer;
+                                    margin-bottom: 5px;
+                                }
+                                div:last-child{
+                                    margin-bottom:0px;
+                                }
+                                div:hover{
+                                    background-color: rgb(223, 221, 221);
+                                }
+                            }
+                            
+                            &:hover .action_dropdown{
+                                // z-index: 10;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+               
             }
         }
     }
 }
-
 .pagination {
     // background-color: rgb(232, 231, 224);
     border-radius: 5px;
