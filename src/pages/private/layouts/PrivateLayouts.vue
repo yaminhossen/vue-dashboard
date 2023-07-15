@@ -43,7 +43,7 @@
             <a @click.prevent="toggleLi($event)" href="javascript:void(0);" class="menu-link menu-toggle">
               <i class="fa-solid fa-users"></i>
               <div data-i18n="Dashboards">Users</div>
-              <div class="badge bg-primary rounded-pill ms-auto"></div>
+              <!-- <div class="badge bg-primary rounded-pill ms-auto"></div> -->
             </a>
             <ul class="menu-sub">
               <!-- <li class="menu-item">

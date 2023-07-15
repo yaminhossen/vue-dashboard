@@ -1,7 +1,18 @@
 .layout-wrapper{
+    .menu-link{
+        text-decoration: none;
+    }
     .layout-container{
         aside{
             box-shadow: var(--shadow_color);
+            .menu-inner{
+                .menu-item{
+                    div{
+                        margin-left: 10px;
+                        text-decoration: none;
+                    }
+                }
+            }
         }
         .sun{
             i{
